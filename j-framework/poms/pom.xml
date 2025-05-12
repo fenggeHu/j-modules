@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.fenggehu</groupId>
+    <artifactId>poms</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>base-pom</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <skipTests>true</skipTests>
+        <lombok.version>1.18.30</lombok.version>
+        <slf4j.version>1.7.36</slf4j.version>
+        <junit.version>5.11.0</junit.version>
+        <log4j.version>2.24.3</log4j.version>
+        <spring.boot.version>2.7.18</spring.boot.version>
+        <spring.cloud.version>2021.0.5</spring.cloud.version>
+        <spring.cloud.alibaba.version>2021.0.5.0</spring.cloud.alibaba.version>
+        <springdoc.version>1.8.0</springdoc.version>
+        <jackson.version>2.18.2</jackson.version>
+        <okhttp.version>4.10.0</okhttp.version>
+        <apache.poi.version>4.1.2</apache.poi.version>
+        <druid.version>1.2.20</druid.version>
+        <okhttp3.version>4.12.0</okhttp3.version>
+        <openfeign.version>13.1</openfeign.version>
+        <logback.version>1.2.13</logback.version>   <!-- spring boot2仅支持到1.2.x版本 -->
+
+        <mysql.version>9.2.0</mysql.version>
+        <mybatis.version>3.5.19</mybatis.version>
+        <mybatis-plus.version>3.5.10.1</mybatis-plus.version>
+    </properties>
+
+</project>
