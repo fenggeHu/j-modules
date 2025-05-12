@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>j-framework</module>
+        <module>organization</module>
     </modules>
 
     <properties>
